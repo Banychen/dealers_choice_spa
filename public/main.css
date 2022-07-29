@@ -1,0 +1,166 @@
+body{
+    font-family: Verdana;
+    margin:0;
+}
+
+header{
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    border:2px solid;
+    border-color: #eeb8ad;
+}
+#up{
+    top:0;
+}
+#down{
+  bottom:0;
+}
+
+
+nav{
+    padding:3px 0;
+    width:100%;
+    display:flex;
+    background-color: white;
+}
+table{
+    padding:0px 20px;
+    flex-grow:1;
+    text-align: center;
+    background-color: white;
+    font-size:x-small;
+    color:white;
+  
+   
+}
+td{
+    padding:2px 0px;
+    border: 2px solid;
+    border-color: #db6d58;
+    background-color: #eeb8ad;
+}
+ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    flex-grow:18;
+}
+
+nav li{
+    color:#482e38;
+    font-weight: 300;
+    font-size:1rem;
+}
+
+nav li a{
+    color:#482e38;
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+    top:56px;
+    text-align: center;
+    display: flex;
+    z-index: 0;
+}
+
+main h1{
+    color:white;
+    font-weight: 600;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: pink;
+    opacity: 0.75;
+    font-size: x-small;
+    text-transform: uppercase;
+    position: relative;
+    top:80px;
+}
+
+.container{
+    width:900px;
+    margin:0 auto;
+    padding: 5px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+.bigTitle{
+    display: flex;
+    width:100%;
+    flex-direction:column;
+    align-content:space-around;
+    justify-content:center;
+    align-items:center;
+    height: 200px;
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg)
+}
+
+.btn{
+    color:white;
+    background-color: #d4bbc5;
+    width:160px;
+    font-size:15px;
+    text-transform: uppercase;
+    padding:10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.details{
+    position: relative;
+    top:50px;
+}
+.details h2{
+    color:#9d667b;
+}
+
+.stuffs p{
+    color:#66414f;
+}
+
+.details .stuffs a{
+    text-decoration: none;
+    color:#f50a36;
+}
+
+@media (max-width: 300px) {
+    
+    .nav ul{
+        flex-direction:column;
+    }
+    
+}
+
+ #all_light { 
+ opacity: 0.8; /*透明度*/
+ width: 100%; /*宽度*/
+ height: 2300px; /*高度，不能百分百*/
+ background: #000; /*背景色*/
+ position: absolute;
+ top: 0;
+ left: 0; /*定位*/
+ display: none; /*隐藏*/
+ z-index: 5; /*覆盖*/
+ }
+ #contes { /* 弹框的页面*/
+ width: 500px; /*宽度*/
+ height: 500px; /*高度*/
+ background: #fff; /*背景色*/
+ display: none; /*隐藏*/
+ z-index: 6; /*覆盖*/
+ position: absolute;
+ top: 100px;
+ left: 400px; /* 定位*/
+ }
+ input{
+ margin-bottom: 10px;
+ }
